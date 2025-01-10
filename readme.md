@@ -1,4 +1,5 @@
-🌟 Diabetes Prediction Model 🚀
+<h1>🌟 Diabetes Prediction Model 🚀</h1>
+
 Welcome to the Diabetes Prediction Model project! This tool helps predict whether a patient is diabetic based on their health data. Using machine learning, we’ve built an intelligent system that analyzes factors like glucose levels, age, and BMI to classify a patient as diabetic or not. 💡
 
 🎯 Project Overview
@@ -14,6 +15,7 @@ Requirements:
 pandas
 numpy
 scikit-learn
+
 📊 The Dataset
 This project uses the PIMA Indians Diabetes Database, which contains health data of 768 patients. It has the following features:
 
@@ -33,11 +35,13 @@ The magic happens in these simple steps:
 Data Preprocessing: First, we standardize the data to make sure all features are on the same scale.
 Splitting Data: We divide the data into training (80%) and test (20%) sets.
 Training the Model: We use a Support Vector Machine (SVM) classifier with a linear kernel for the prediction.
+
 🔍 Evaluating the Model
 We measure the model’s performance using accuracy scores:
 
 Training Data Accuracy: Tells us how well the model learned from the training set.
 Test Data Accuracy: Shows how well the model generalizes to new, unseen data.
+
 🚀 Usage
 You can quickly make predictions for a new patient using the following code:
 
@@ -69,5 +73,6 @@ This is just the beginning! There are many ways we can improve this project:
 More Features: We can add more patient details to improve accuracy.
 Visualization: Add graphs and charts to visualize the performance of the model.
 Deploy the Model: We can deploy the model as a web app for easy predictions on the go. 🌍
+
 📜 License
 This project is open-source and licensed under the MIT License. Feel free to use, modify, and share it!
