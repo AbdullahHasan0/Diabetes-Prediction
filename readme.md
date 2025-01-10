@@ -45,20 +45,18 @@ Test Data Accuracy: Shows how well the model generalizes to new, unseen data.
 🚀 Usage
 You can quickly make predictions for a new patient using the following code:
 
-python
-Copy code
 input_data = (1, 132, 62, 13, 36, 25.5, 0.393, 22)
 
-# Convert input to numpy array
+#### Convert input to numpy array
 input_data_as_numpy_array = np.asarray(input_data)
 
-# Reshape the array for prediction
+#### Reshape the array for prediction
 input_data_reshaped = input_data_as_numpy_array.reshape(1, -1)
 
-# Standardize the input data
+#### Standardize the input data
 std_data = scalar.transform(input_data_reshaped)
 
-# Predict using the trained model
+#### Predict using the trained model
 prediction = classifier.predict(std_data)
 
 if prediction[0] == 0:
